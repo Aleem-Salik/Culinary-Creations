@@ -1,0 +1,87 @@
+@media (max-width: 94em) {
+    html {
+        font-size: 62.5%;
+    }
+}
+
+@media (max-width: 86em) {
+    .meals-list {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 71em) {
+    html {
+        font-size: 56.25%;
+    }
+    .meals-list {
+        row-gap: 3.2rem;
+        padding: 2.4rem;
+    }
+}
+
+@media (max-width: 60em) {
+    .meals-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 46em) {
+    html {
+        font-size: 50%;
+    }
+
+    .search-input {
+        width: 48rem;
+    }
+
+    .meals-list {
+        padding: 1.2em;
+    }
+}
+
+@media (max-width: 40em) {
+    .hero-heading {
+        font-size: 4.4rem;
+    }
+
+    .hero-paragraph {
+        width: auto;
+        margin: 0 2.4rem 1.8rem 2.4rem;
+    }
+
+    .meals-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 28em) {
+    .hero-heading {
+        font-size: 3.2rem;
+    }
+
+    .hero-paragragh {
+        font-size: 1.4rem;
+    }
+
+    .meals-list {
+        grid-template-columns: 1fr;
+    }
+
+    .search-input {
+        width: 40rem;
+    }
+
+    .meal-card {
+        grid-template-columns: repeat(2, 1fr);
+        height: 20rem;
+        width: 40rem;
+        align-items: center;
+    }
+
+    .meal-img-container {
+        height: 20rem;
+        width: 20rem;
+        gap: 1.2rem;
+    }
+}

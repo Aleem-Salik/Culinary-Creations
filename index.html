@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Culinary Creations</title>
+    <link rel="icon" type="image/x-icon" href="./images/pot-of-food-svgrepo-com.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sevillana&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style/styles.css" />
+    <link rel="stylesheet" href="./style/queries.css">
+  </head>
+  <body>
+    <header>
+    <nav>
+      <div class="logo-container">
+        <img
+          src="./images/pot-of-food-svgrepo-com.svg"
+          alt="Website Logo"
+          class="logo"
+        />
+        <span class="brand-name">CulinaryCreations.com</span>
+      </div>
+    </nav>
+    <div class="hero-section">
+      <h1 class="hero-heading">Search among <span>12,550</span> recipes</h1>
+      <p class="hero-paragraph">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+        voluptas, error itaque tempore repellat laborum maxime expedita nobis
+        porro.
+      </p>
+      <form class="search-input-container">
+        <input
+          type="text"
+          class="search-input"
+          placeholder="Enter your Search"
+        />
+        <button class="search-btn">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-6 search-icon"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z"
+            />
+          </svg>
+        </button>
+      </form>
+      <ul class="meal-menu">
+        <li class="meal-option" data-meal="cake">
+          
+            <img
+              src="./images/cake-svgrepo-com.svg"
+              alt="cake image"
+              class="meal-icon"
+            />
+            <span class="meal-name">Cake</span>
+        </li>
+        <li class="meal-option" data-meal="soup">
+          
+            <img
+              src="./images/soup-svgrepo-com.svg"
+              alt="soup image"
+              class="meal-icon"
+            />
+            <span class="meal-name">Soup</span>
+        </li>
+        <li class="meal-option" data-meal="egg">
+          
+            <img
+              src="./images/poached-eggs-svgrepo-com.svg"
+              alt="Eggs image"
+              class="meal-icon"
+            />
+            <span class="meal-name">Egg</span>
+        </li>
+        <li class="meal-option" data-meal="noodle">
+          
+            <img
+              src="./images/noodles-pasta-svgrepo-com.svg"
+              alt="Noodles image"
+              class="meal-icon"
+            />
+            <span class="meal-name">Noodle</span>
+        </li>
+        <li class="meal-option" data-meal="chicken">
+          
+            <img
+              src="./images/chicken-svgrepo-com.svg"
+              alt="Chicken image"
+              class="meal-icon"
+            />
+            <span class="meal-name">Chicken</span>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="meals-section">
+    <div class="meals-list hide"></div>
+    <div class="recipe-container hide">
+      <button class="close-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 close-icon">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+        </svg>        
+      </button>
+      <h2 class="recipe-heading">Ingredients</h2>
+      <ul class="ingredient-list"></ul>
+      <h2 class="recipe-heading instructions-heading">Instructions for Making</h2>
+      <p class="instructions"></p>
+    </div>
+  </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
